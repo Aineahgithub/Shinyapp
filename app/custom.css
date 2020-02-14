@@ -1,0 +1,151 @@
+/*
+ * data.css
+ *#F0F0F0
+ * Copyright (C) 2009-12 by RStudio, Inc.
+ *
+ * This program is licensed to you under the terms of version 3 of the
+ * GNU Affero General Public License. This program is distributed WITHOUT
+ * ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING THOSE OF NON-INFRINGEMENT,
+ * MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
+ * AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
+ * border: 1px solid #DDD;
+ *   padding: 3px 12px 3px 6px;
+ *96abfd
+ */
+body {
+  margin: 0;
+  padding: 0;
+ font-size: 22px;
+  background-color:#0f1941;
+ color: black;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+}
+
+th, td {
+  font-size: 14px;
+  white-space: pre;
+ background-color:white;
+ color: black;
+}
+td {
+  font-family: Consolas, Lucida Console, Monaco, monospace;
+color: black;
+}
+thead th, .rn, #origin {
+  font-family: Segoe UI, Lucida Grande, Verdana, Helvetica;
+  background-color: white;
+  font-weight: bold;
+  color: black;
+}
+
+.rn, #origin {
+  text-align: right;
+  border-left: none;
+ color: white;
+background-color:#0f1941;
+}
+.info-box {
+  min-height: 60px; border-radius: 30px;
+}
+
+.info-box-icon {
+  height: 60px; line-height: 60px; width: 90px;
+}
+
+.info-box-content {
+  padding-top: 10px; padding-bottom: 0px;
+}
+
+.info-box-text {
+  text-transform: capitalize;
+}
+
+.bg-black { 
+  background-color: #0f1941!important; 
+}
+.content-wrapper,right-side
+ {
+	background-color:#032196;
+}
+/* Only this works  */
+.content { 
+background-color:#032196;
+color: white;
+}
+.content, left-side { 
+background-color:#032196;
+color: white;
+}
+.box {
+background-color:#032196;
+}
+.skin-blue-wrapper {
+	background-color:#032196;
+}
+h4{
+	margin-left 20px;
+	color: white;
+} 
+h3{
+	margin-left 20px;
+	color: white;
+}
+
+.sidebar {
+	color: #0f1941;
+	background-color:#0f1941;
+}
+.main-header .logo {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: bold;
+  font-size: 24px;
+background-color:#0f1941;
+}
+.skin-blue .main-head{
+	background-color: #0f1941;
+}
+/* logo */
+        .skin-blue .main-header .logo {
+                              background-color: #f4b943;
+                              }
+
+        /* logo when hovered */
+        .skin-blue .main-header .logo:hover {
+                              background-color: #f4b943;
+                              }
+
+        /* navbar (rest of the header) */
+        .skin-blue .main-header .navbar {
+                              background-color: #f4b943;
+                              }        
+
+        /* main sidebar */
+        .skin-blue .main-sidebar {
+                              background-color: #f4b943;
+                              }
+
+        /* active selected tab in the sidebarmenu */
+        .skin-blue .main-sidebar .sidebar .sidebar-menu .active a{
+                              background-color: #ff0000;
+                              }
+
+        /* other links in the sidebarmenu */
+        .skin-blue .main-sidebar .sidebar .sidebar-menu a{
+                              background-color: #00ff00;
+                              color: #000000;
+                              }
+
+        /* other links in the sidebarmenu when hovered */
+         .skin-blue .main-sidebar .sidebar .sidebar-menu a:hover{
+                              background-color: #ff69b4;
+                              }
+        /* toggle button when hovered  */                    
+         .skin-blue .main-header .navbar .sidebar-toggle:hover{
+                              background-color: #ff69b4;
+                              }
